@@ -14,13 +14,13 @@
 		6B1FB29419038F1E00D2391E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1FB29319038F1E00D2391E /* main.m */; };
 		6B1FB29819038F1E00D2391E /* RNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1FB29719038F1E00D2391E /* RNAppDelegate.m */; };
 		6B1FB29B19038F1E00D2391E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1FB29919038F1E00D2391E /* Main.storyboard */; };
-		6B1FB29E19038F1E00D2391E /* RNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1FB29D19038F1E00D2391E /* RNViewController.m */; };
 		6B1FB2A019038F1E00D2391E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B1FB29F19038F1E00D2391E /* Images.xcassets */; };
 		6B1FB2A719038F1E00D2391E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B1FB2A619038F1E00D2391E /* XCTest.framework */; };
 		6B1FB2A819038F1E00D2391E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B1FB28719038F1E00D2391E /* Foundation.framework */; };
 		6B1FB2A919038F1E00D2391E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B1FB28B19038F1E00D2391E /* UIKit.framework */; };
 		6B1FB2B119038F1E00D2391E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B1FB2AF19038F1E00D2391E /* InfoPlist.strings */; };
 		6B1FB2B319038F1E00D2391E /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1FB2B219038F1E00D2391E /* UITableViewController_Challenge_SolutionTests.m */; };
+		6B1FB2BE190396C600D2391E /* RNTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1FB2BD190396C600D2391E /* RNTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		6B1FB29619038F1E00D2391E /* RNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNAppDelegate.h; sourceTree = "<group>"; };
 		6B1FB29719038F1E00D2391E /* RNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNAppDelegate.m; sourceTree = "<group>"; };
 		6B1FB29A19038F1E00D2391E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6B1FB29C19038F1E00D2391E /* RNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNViewController.h; sourceTree = "<group>"; };
-		6B1FB29D19038F1E00D2391E /* RNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNViewController.m; sourceTree = "<group>"; };
 		6B1FB29F19038F1E00D2391E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6B1FB2A519038F1E00D2391E /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B1FB2A619038F1E00D2391E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6B1FB2AE19038F1E00D2391E /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		6B1FB2B019038F1E00D2391E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6B1FB2B219038F1E00D2391E /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		6B1FB2BC190396C600D2391E /* RNTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNTableViewController.h; sourceTree = "<group>"; };
+		6B1FB2BD190396C600D2391E /* RNTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				6B1FB29619038F1E00D2391E /* RNAppDelegate.h */,
 				6B1FB29719038F1E00D2391E /* RNAppDelegate.m */,
 				6B1FB29919038F1E00D2391E /* Main.storyboard */,
-				6B1FB29C19038F1E00D2391E /* RNViewController.h */,
-				6B1FB29D19038F1E00D2391E /* RNViewController.m */,
+				6B1FB2BC190396C600D2391E /* RNTableViewController.h */,
+				6B1FB2BD190396C600D2391E /* RNTableViewController.m */,
 				6B1FB29F19038F1E00D2391E /* Images.xcassets */,
 				6B1FB28E19038F1E00D2391E /* Supporting Files */,
 			);
@@ -250,9 +250,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B1FB2BE190396C600D2391E /* RNTableViewController.m in Sources */,
 				6B1FB29819038F1E00D2391E /* RNAppDelegate.m in Sources */,
 				6B1FB29419038F1E00D2391E /* main.m in Sources */,
-				6B1FB29E19038F1E00D2391E /* RNViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

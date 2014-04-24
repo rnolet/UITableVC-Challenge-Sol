@@ -1,5 +1,5 @@
 //
-//  RNViewController.h
+//  RNTableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Ricardo Nolet on 2014/04/20/.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RNViewController : UIViewController
-
+@interface RNTableViewController : UITableViewController
 
 @end
